@@ -20,7 +20,7 @@ export const useStyles = makeStyles((theme) => ({
   listItemText: {
     fontSize: 14,
   },
-  listItemButton: {
+  listItem: {
     display: 'flex',
     flexDirection: 'column',
   }
