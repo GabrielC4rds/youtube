@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@mui/styles";
 // import TopBar from './../components/TopBar/index';
 import LeftBar from './../components/LeftBar/index'
+import { ListItemButton } from "@mui/material";
 
 export const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,6 +19,10 @@ export const useStyles = makeStyles((theme) => ({
   },
   listItemText: {
     fontSize: 14,
+  },
+  listItemButton: {
+    display: 'flex',
+    flexDirection: 'column',
   }
 }));
 
