@@ -16,6 +16,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import TopBar from "./../TopBar/index";
 import { useStyles } from "../../pages/HomePage";
 import HomeIcon from "@mui/icons-material/Home";
+import ExploreIcon from '@mui/icons-material/Explore';
 
 const drawerWidth = 240;
 
@@ -40,7 +41,7 @@ export default function ClippedDrawer() {
         <Box sx={{ overflow: "auto" }}>
           <List>
             <ListItem disablePadding>
-              <ListItemButton className={classes.listItemButton}>
+              <ListItemButton>
                 <ListItemIcon>
                   <HomeIcon />
                 </ListItemIcon>
@@ -48,8 +49,23 @@ export default function ClippedDrawer() {
                   classes={{ primary: classes.listItemText }}
                   primary={"Início"}
                 />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton>
                 <ListItemIcon>
-                  <HomeIcon />
+                  <ExploreIcon />
+                </ListItemIcon>
+                <ListItemText
+                  classes={{ primary: classes.listItemText }}
+                  primary={"Explorar"}
+                />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <ExploreIcon />
                 </ListItemIcon>
                 <ListItemText
                   classes={{ primary: classes.listItemText }}
