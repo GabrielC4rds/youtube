@@ -24,6 +24,11 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import ContentCutIcon from "@mui/icons-material/ContentCut";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import PlaylistAddIcon from "@mui/icons-material/PlaylistAdd";
+import TheatersIcon from "@mui/icons-material/Theaters";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import SensorsIcon from "@mui/icons-material/Sensors";
+import EmojiObjectsIcon from "@mui/icons-material/EmojiObjects";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 const drawerWidth = 240;
 
@@ -181,77 +186,55 @@ export default function ClippedDrawer() {
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <VideoLibraryIcon />
+                  <TheatersIcon />
                 </ListItemIcon>
                 <ListItemText
                   classes={{ primary: classes.listItemText }}
-                  primary={"Biblioteca"}
+                  primary={"Filmes"}
                 />
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <HistoryIcon />
+                  <SportsEsportsIcon />
                 </ListItemIcon>
                 <ListItemText
                   classes={{ primary: classes.listItemText }}
-                  primary={"Hístorico"}
+                  primary={"Jogos"}
                 />
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <SlideshowIcon />
+                  <SensorsIcon />
                 </ListItemIcon>
                 <ListItemText
                   classes={{ primary: classes.listItemText }}
-                  primary={"Seus vídeos"}
+                  primary={"Ao vivo"}
                 />
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <AccessTimeIcon />
+                  <EmojiObjectsIcon />
                 </ListItemIcon>
                 <ListItemText
                   classes={{ primary: classes.listItemText }}
-                  primary={"Assistir mais tarde"}
+                  primary={"Ideia"}
                 />
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <ContentCutIcon />
+                  <EmojiEventsIcon />
                 </ListItemIcon>
                 <ListItemText
                   classes={{ primary: classes.listItemText }}
-                  primary={"Seus clipes"}
-                />
-              </ListItemButton>
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  <ThumbUpOffAltIcon />
-                </ListItemIcon>
-                <ListItemText
-                  classes={{ primary: classes.listItemText }}
-                  primary={"Vídeos marcados como gostei"}
-                />
-              </ListItemButton>
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  <PlaylistAddIcon />
-                </ListItemIcon>
-                <ListItemText
-                  classes={{ primary: classes.listItemText }}
-                  primary={"Criar playlist"}
+                  primary={"Esportes"}
                 />
               </ListItemButton>
             </ListItem>

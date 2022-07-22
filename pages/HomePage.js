@@ -29,6 +29,7 @@ export const useStyles = makeStyles((theme) => ({
     marginLeft: 16,
     color: "#616161",
     fontWeight: "bold",
+    marginTop: 10,
   }
 }));
 
