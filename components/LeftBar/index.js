@@ -172,6 +172,90 @@ export default function ClippedDrawer() {
               </ListItemButton>
             </ListItem>
           </List>
+          <Divider />
+          <List>
+            <ListItemText
+              classes={{ primary: classes.listItemTitle }}
+              primary={"Explorar"}
+            ></ListItemText>
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <VideoLibraryIcon />
+                </ListItemIcon>
+                <ListItemText
+                  classes={{ primary: classes.listItemText }}
+                  primary={"Biblioteca"}
+                />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <HistoryIcon />
+                </ListItemIcon>
+                <ListItemText
+                  classes={{ primary: classes.listItemText }}
+                  primary={"Hístorico"}
+                />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <SlideshowIcon />
+                </ListItemIcon>
+                <ListItemText
+                  classes={{ primary: classes.listItemText }}
+                  primary={"Seus vídeos"}
+                />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <AccessTimeIcon />
+                </ListItemIcon>
+                <ListItemText
+                  classes={{ primary: classes.listItemText }}
+                  primary={"Assistir mais tarde"}
+                />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <ContentCutIcon />
+                </ListItemIcon>
+                <ListItemText
+                  classes={{ primary: classes.listItemText }}
+                  primary={"Seus clipes"}
+                />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <ThumbUpOffAltIcon />
+                </ListItemIcon>
+                <ListItemText
+                  classes={{ primary: classes.listItemText }}
+                  primary={"Vídeos marcados como gostei"}
+                />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton>
+                <ListItemIcon>
+                  <PlaylistAddIcon />
+                </ListItemIcon>
+                <ListItemText
+                  classes={{ primary: classes.listItemText }}
+                  primary={"Criar playlist"}
+                />
+              </ListItemButton>
+            </ListItem>
+          </List>
         </Box>
       </Drawer>
     </Box>

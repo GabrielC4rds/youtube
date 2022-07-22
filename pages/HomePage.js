@@ -23,6 +23,12 @@ export const useStyles = makeStyles((theme) => ({
   listItem: {
     display: 'flex',
     flexDirection: 'column',
+  },
+  listItemTitle: {
+    fontSize: 16,
+    marginLeft: 16,
+    color: "#616161",
+    fontWeight: "bold",
   }
 }));
 
