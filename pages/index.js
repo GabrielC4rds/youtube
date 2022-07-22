@@ -1,8 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import CssBaseline from "@mui/material/CssBaseline";
-import Button from "@mui/material/Button";
 import { ThemeProvider, createTheme, makeStyles } from '@mui/material/styles';
 import HomePage from './HomePage'
 
@@ -12,7 +9,13 @@ const theme = createTheme({
       main: '#fff'
     },
     secondary: {
-      main: '#fff'
+      main: '#424242'
+    },
+    lightGray: {
+      main: '#bdbdbd'
+    },
+    red: {
+      main: '#f44336'
     }
   },
 });

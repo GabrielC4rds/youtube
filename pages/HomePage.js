@@ -1,8 +1,7 @@
 import React from "react";
 import { makeStyles } from "@mui/styles";
-// import TopBar from './../components/TopBar/index';
 import LeftBar from './../components/LeftBar/index'
-import { ListItemButton } from "@mui/material";
+import { autocompleteClasses } from "@mui/material";
 
 export const useStyles = makeStyles((theme) => ({
   root: {
@@ -37,7 +36,6 @@ function HomePage() {
 // eslint-disable-next-line react-hooks/rules-of-hooks
 const classes = useStyles();
   return <div className={classes.root}>
-    {/* <TopBar/> */}
     <LeftBar/>
   </div>;
 }
